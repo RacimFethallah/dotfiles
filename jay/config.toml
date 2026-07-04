@@ -100,7 +100,7 @@ mod4-shift-Return = "quit"
 
 
 
-# mod4-Return = { type = "exec", exec = {prog = "swaylock", privileged = true,} }
+# mod4-Return = { type = "exec", exec = {prog = "swaylock", privileged = true} }
 
 mod4-1 = { type = "show-workspace", name = "1" }
 mod4-2 = { type = "show-workspace", name = "2" }
@@ -132,30 +132,30 @@ mod4-shift-12 = { type = "move-to-workspace", name = "12" }
 
 XF86AudioRaiseVolume = {
     type = "exec",
-    exec = ["pactl", "set-sink-volume", "0", "+5%"],
+    exec = ["pactl", "set-sink-volume", "0", "+5%"]
 }
 XF86AudioLowerVolume = {
     type = "exec",
-    exec = ["pactl", "set-sink-volume", "0", "-5%"],
+    exec = ["pactl", "set-sink-volume", "0", "-5%"]
 }
 XF86AudioMute = {
     type = "exec",
-    exec = ["pactl", "set-sink-mute", "0", "toggle"],
+    exec = ["pactl", "set-sink-mute", "0", "toggle"]
 }
 
 shift-Print = {
     type = "exec",
     exec = {
         shell = "grim - | wl-copy",
-        privileged = true,
-    },
+        privileged = true
+    }
 }
 
 Print = {
     type = "exec",
     exec = {
         shell = "grim ~/Pictures/Screenshots/screenshot-$(date +%s).png",
-        privileged = true,
+        privileged = true
     },
 }
 

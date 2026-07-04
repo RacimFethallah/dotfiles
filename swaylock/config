@@ -1,22 +1,40 @@
-# Basic functionality
-daemonize
-show-failed-attempts
-ignore-empty-password
+# ~/.config/swaylock/config
 
-# Styling the indicator
-# indicator
-# indicator-radius=100
-# indicator-thickness=10
+# Black background
+color=000000
 
-# Color scheme and transparency
-# Colors are in rrggbb or rrggbbaa format
-ring-color=bb00cc
-key-hl-color=880033
+# Monospace font
+font=JetBrainsMono Nerd Font Mono
+font-size=22
+
+# Make the indicator square-ish (actually invisible)
+indicator-radius=1
+indicator-thickness=0
+
+inside-color=00000000
+inside-ver-color=00000000
+inside-clear-color=00000000
+inside-wrong-color=00000000
+
+ring-color=00000000
+ring-ver-color=00000000
+ring-clear-color=00000000
+ring-wrong-color=00000000
+
 line-color=00000000
-inside-color=00000088
+line-ver-color=00000000
+line-clear-color=00000000
+line-wrong-color=00000000
+
 separator-color=00000000
 
-# Background and visual effects
-# image=/home/ric/Pictures/wallpapers/wallpaperflare.com_wallpaper.jpg
-# scaling=fill
-# effect-blur=7x5
+text-color=33ff33
+text-ver-color=ffff00
+text-wrong-color=ff4444
+
+key-hl-color=33ff33
+bs-hl-color=ff4444
+
+show-failed-attempts
+disable-caps-lock-text
+ignore-empty-password
