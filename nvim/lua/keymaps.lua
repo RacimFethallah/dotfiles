@@ -5,3 +5,4 @@ vim.keymap.set('n', '<S-l>', ':bnext<CR>', {  desc = '', silent = true })
 -- Fast delete/close current buffer without closing your window split
 vim.keymap.set('n', '<leader>bd', ':bdelete<CR>', {  desc = 'Delete Buffer', silent = true })
 
+vim.keymap.set("n", "<leader>pu", "<cmd>lua vim.pack.update()<CR>", { desc = "Update plugins" })

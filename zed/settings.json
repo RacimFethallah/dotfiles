@@ -7,6 +7,17 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "terminal": {
+    "font_family": "JetBrainsMonoNL Nerd Font Mono"
+  },
+  "telemetry": {
+    "diagnostics": true,
+    "metrics": true,
+    "anthropic_retention": false
+  },
+  "session": {
+    "trust_all_worktrees": true
+  },
   "base_keymap": "VSCode",
   "cli_default_open_behavior": "existing_window",
   "helix_mode": false,
@@ -82,8 +93,8 @@
   },
   "disable_ai": true,
   "icon_theme": "Material Icon Theme",
-  "ui_font_family": "JetBrainsMonoNL Nerd Font Mono",
-  "buffer_font_family": "JetBrainsMonoNL Nerd Font Mono",
+  "ui_font_family": "JetBrainsMono Nerd Font",
+  "buffer_font_family": "JetBrainsMonoNL Nerd Font",
   "autosave": {
     "after_delay": {
       "milliseconds": 1000,
