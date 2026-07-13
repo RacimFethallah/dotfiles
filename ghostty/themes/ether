@@ -1,0 +1,31 @@
+# Dither — Ghostty Theme
+# Monochrome Theme
+
+background = #0A0A0A
+foreground = #E8E8E8
+
+cursor-color = #FFFFFF
+cursor-text  = #0A0A0A
+
+selection-background = #333333
+selection-foreground = #FFFFFF
+
+# ── Normal 8 ────────────────────────────────────────────────
+palette = 0=#1A1A1A
+palette = 1=#808080
+palette = 2=#B0B0B0
+palette = 3=#A0A0A0
+palette = 4=#8C8C8C
+palette = 5=#989898
+palette = 6=#C0C0C0
+palette = 7=#E8E8E8
+
+# ── Bright 8 ────────────────────────────────────────────────
+palette = 8=#454545
+palette = 9=#9A9A9A
+palette = 10=#D0D0D0
+palette = 11=#B8B8B8
+palette = 12=#A0A0A0
+palette = 13=#C4C4C4
+palette = 14=#DCDCDC
+palette = 15=#FFFFFF

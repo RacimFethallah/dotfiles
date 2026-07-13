@@ -2,9 +2,9 @@
 import = ["./themes/current.toml"]
 
 [window]
-opacity = 1
+opacity = 0.95
 decorations = "none"
-blur = false
+blur = true
 dynamic_padding = false
 title = "Alacritty"
 dynamic_title = true

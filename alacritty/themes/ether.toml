@@ -1,0 +1,76 @@
+# Dither — Alacritty Theme
+# Monochrome Theme
+
+[colors.primary]
+background = "0x0A0A0A"
+foreground = "0xE8E8E8"
+bright_foreground = "0xFFFFFF"
+
+[colors.cursor]
+text   = "0x0A0A0A"
+cursor = "0xFFFFFF"
+
+[colors.vi_mode_cursor]
+text   = "0x0A0A0A"
+cursor = "0xFFFFFF"
+
+[colors.search.matches]
+foreground = "0x0A0A0A"
+background = "0xC0C0C0"
+
+[colors.search.focused_match]
+foreground = "0x0A0A0A"
+background = "0xFFFFFF"
+
+[colors.hints.start]
+foreground = "0x0A0A0A"
+background = "0xFFFFFF"
+
+[colors.hints.end]
+foreground = "0xFFFFFF"
+background = "0x0A0A0A"
+
+[colors.line_indicator]
+foreground = "None"
+background = "None"
+
+[colors.footer_bar]
+foreground = "0x0A0A0A"
+background = "0xE8E8E8"
+
+# Normal 8 colors
+[colors.normal]
+black   = "0x1A1A1A"   # UI chrome, not true black
+red     = "0x808080"   # errors, deletions
+green   = "0xB0B0B0"   # strings, success
+yellow  = "0xA0A0A0"   # types, constants
+blue    = "0x8C8C8C"   # functions, methods
+magenta = "0x989898"   # keywords, control flow
+cyan    = "0xC0C0C0"   # specials, builtins
+white   = "0xE8E8E8"   # default text — bright enough to actually read
+
+# Bright 8 colors
+[colors.bright]
+black   = "0x454545"   # dimmed UI
+red     = "0x9A9A9A"   # errors, diff deletions
+green   = "0xD0D0D0"   # diff additions, success signs
+yellow  = "0xB8B8B8"   # warnings, inlay hints
+blue    = "0xA0A0A0"   # builtin fns, search
+magenta = "0xC4C4C4"   # macros, jump labels
+cyan    = "0xDCDCDC"   # diff moved
+white   = "0xFFFFFF"   # pure white — cursor-tier brightness
+
+# Dim colors
+[colors.dim]
+black   = "0x121212"
+red     = "0x606060"
+green   = "0x8C8C8C"
+yellow  = "0x7E7E7E"
+blue    = "0x707070"
+magenta = "0x7A7A7A"
+cyan    = "0x969696"
+white   = "0x7E7E7E"
+
+[colors.selection]
+background = "0x333333"
+foreground = "0xFFFFFF"

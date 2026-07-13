@@ -11,8 +11,8 @@
     "font_family": "JetBrainsMonoNL Nerd Font Mono"
   },
   "telemetry": {
-    "diagnostics": true,
-    "metrics": true,
+    "diagnostics": false,
+    "metrics": false,
     "anthropic_retention": false
   },
   "session": {
