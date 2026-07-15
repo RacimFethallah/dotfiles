@@ -1,0 +1,5 @@
+[[language]]
+name = "xml"
+formatter = { command = "xmllint", args = ["--format", "-"] }
+# auto-format = true
+

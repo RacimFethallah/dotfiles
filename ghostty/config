@@ -13,7 +13,7 @@ app-notifications = no-clipboard-copy
 cursor-style-blink = false
 
 
-background-opacity = 0.95
+background-opacity = 0.97
 background-blur = true
 window-theme = dark
 window-padding-balance = false
