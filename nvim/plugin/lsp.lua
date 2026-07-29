@@ -41,7 +41,7 @@ vim.api.nvim_create_autocmd('LspAttach', {
     map({ 'n', 'v' }, '<leader>ca', vim.lsp.buf.code_action, 'Code action')
     map('n', '<leader>cf', function() vim.lsp.buf.format() end, 'Format buffer')
     map('n', '<leader>fd', vim.diagnostic.setloclist, 'Diagnostics (loclist)')
-    map('n', '<leader>e', vim.diagnostic.open_float , 'Diagnostics (float)')
+    map('n', '<leader>fe', vim.diagnostic.open_float , 'Diagnostics (float)')
     map('n', '<leader>fD', vim.diagnostic.setqflist, 'Diagnostics (quickfix)')
     map('n', '<leader>fn', function() vim.diagnostic.jump({ count = 1 }) end , 'Next diagnostic')
     map('n', '<leader>fp', function() vim.diagnostic.jump({ count = -1 }) end , 'Prev diagnostic')
